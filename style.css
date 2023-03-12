@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+.toggle-butt {
+  padding: 13px;
+  margin: 30px;
+  width: 130px;
+  font-weight: bolder;
+  font-size: 17px;
+  cursor: pointer;
+  background-color: #9198e5;
+  color: white;
+}
+.toggle-p {
+  line-height: 1.6;
+  font-weight: bolder;
+  font-size: 20px;
+  word-spacing: 2px;
+  display: block;
+}
+.toggle-p2 {
+  width: 900px;
+  height: 300px;
+  background-color: black;
+  color: white;
+  display: none;
+}
